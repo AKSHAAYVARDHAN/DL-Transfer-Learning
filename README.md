@@ -13,6 +13,9 @@ The model should be able to accurately classify input data into predefined categ
 
 <img width="407" height="109" alt="image" src="https://github.com/user-attachments/assets/b6f9b203-2a8d-4d08-935a-2c59d61f8df8" />
 
+## Theory
+
+Transfer learning is a technique in deep learning where a pre-trained model is reused to solve a new but related problem, reducing the need for large datasets and training time. In this experiment, the VGG19 model, pre-trained on ImageNet, is used for image classification. The convolutional layers extract general features like edges and patterns, while new fully connected layers are added for the specific dataset. This approach improves accuracy and avoids overfitting even with limited data. Thus, transfer learning with VGG19 enables efficient and effective image classification.
 
 ## Neural Network Model
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/43600277-359e-457b-9767-e954c59aac57" />
